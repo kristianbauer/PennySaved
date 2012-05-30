@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USD</key>
+	<dict>
+		<key>quarter</key>
+		<dict>
+			<key>name</key>
+			<string>Quarter</string>
+			<key>value</key>
+			<real>0.25</real>
+			<key>image</key>
+			<string>coinQuarter</string>
+		</dict>
+		<key>dime</key>
+		<dict>
+			<key>name</key>
+			<string>Dime</string>
+			<key>value</key>
+			<real>0.1</real>
+			<key>image</key>
+			<string>coinDime</string>
+		</dict>
+		<key>nickel</key>
+		<dict>
+			<key>name</key>
+			<string>Nickel</string>
+			<key>value</key>
+			<real>0.05</real>
+			<key>image</key>
+			<string>coinNickel</string>
+		</dict>
+		<key>penny</key>
+		<dict>
+			<key>name</key>
+			<string>Penny</string>
+			<key>value</key>
+			<real>0.01</real>
+			<key>image</key>
+			<string>coinPenny</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
