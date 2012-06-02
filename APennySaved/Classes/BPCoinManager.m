@@ -33,7 +33,7 @@ static BPCoinManager *sharedSingleton;
 - (NSString*) coinPath {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
-	return [documentsDirectory stringByAppendingPathComponent:@"coins.txt"];
+	return [documentsDirectory stringByAppendingPathComponent:@"collectedCoins.plist"];
 }
 
 #pragma mark -
@@ -54,14 +54,21 @@ static BPCoinManager *sharedSingleton;
 
 - (void) saveCoins {
 	// write collectedCoins to txt file
-	[collectedCoins writeToFile:[self coinPath] atomically:YES];
-	NSLog(@"BPCoinManager saveCoins: %@", [collectedCoins description]);
+	if([NSKeyedArchiver archiveRootObject:collectedCoins toFile:[self coinPath]]) {
+        NSLog(@"BPCoinManager saveCoins success");
+    }
+    else {
+        NSLog(@"BPCoinManager saveCoins failed");
+    }
 }
 
 - (void) loadCoins {
 	// get collectedCoins from txt file
-	collectedCoins = [[NSMutableArray alloc] initWithContentsOfFile:[self coinPath]];
-	NSLog(@"BPCoinManager loadCoins: %@", [collectedCoins description]);
+	collectedCoins = [NSKeyedUnarchiver unarchiveObjectWithFile:[self coinPath]];
+    // make sure we got some coins
+    if(!collectedCoins) {
+        collectedCoins = [NSMutableArray new];
+    }
 }
 
 @end
