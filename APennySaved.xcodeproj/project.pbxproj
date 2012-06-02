@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91844AB61579DA11009681E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AB51579DA11009681E7 /* UIKit.framework */; };
+		91844AB81579DA11009681E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AB71579DA11009681E7 /* Foundation.framework */; };
+		91844ABA1579DA11009681E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AB91579DA11009681E7 /* CoreGraphics.framework */; };
+		91844AC01579DA11009681E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91844ABE1579DA11009681E7 /* InfoPlist.strings */; };
+		91844AC21579DA11009681E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844AC11579DA11009681E7 /* main.m */; };
+		91844AC91579DA11009681E7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91844AC71579DA11009681E7 /* MainStoryboard_iPhone.storyboard */; };
+		91844ACC1579DA11009681E7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91844ACA1579DA11009681E7 /* MainStoryboard_iPad.storyboard */; };
+		91844AE21579DA11009681E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AE11579DA11009681E7 /* SenTestingKit.framework */; };
+		91844AE31579DA11009681E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AB51579DA11009681E7 /* UIKit.framework */; };
+		91844AE41579DA11009681E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844AB71579DA11009681E7 /* Foundation.framework */; };
+		91844AEC1579DA11009681E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91844AEA1579DA11009681E7 /* InfoPlist.strings */; };
+		91844AEF1579DA11009681E7 /* APennySavedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844AEE1579DA11009681E7 /* APennySavedTests.m */; };
+		91844B0D1579DAA2009681E7 /* coinDime.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844AFA1579DAA2009681E7 /* coinDime.png */; };
+		91844B0E1579DAA2009681E7 /* coinNickel.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844AFB1579DAA2009681E7 /* coinNickel.png */; };
+		91844B0F1579DAA2009681E7 /* coinPenny.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844AFC1579DAA2009681E7 /* coinPenny.png */; };
+		91844B101579DAA2009681E7 /* coinQuarter.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844AFD1579DAA2009681E7 /* coinQuarter.png */; };
+		91844B111579DAA2009681E7 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844AFF1579DAA2009681E7 /* BPAppDelegate.m */; };
+		91844B121579DAA2009681E7 /* BPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844B011579DAA2009681E7 /* BPFirstViewController.m */; };
+		91844B131579DAA2009681E7 /* BPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844B031579DAA2009681E7 /* BPSecondViewController.m */; };
+		91844B141579DAA2009681E7 /* BPCoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844B061579DAA2009681E7 /* BPCoin.m */; };
+		91844B151579DAA2009681E7 /* BPCoinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844B081579DAA2009681E7 /* BPCoinManager.m */; };
+		91844B161579DAA2009681E7 /* BPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91844B0A1579DAA2009681E7 /* BPLocationManager.m */; };
+		91844B171579DAA2009681E7 /* coins.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91844B0C1579DAA2009681E7 /* coins.plist */; };
+		91844B1C1579DAC2009681E7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844B181579DAC2009681E7 /* first.png */; };
+		91844B1D1579DAC2009681E7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844B191579DAC2009681E7 /* first@2x.png */; };
+		91844B1E1579DAC2009681E7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844B1A1579DAC2009681E7 /* second.png */; };
+		91844B1F1579DAC2009681E7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91844B1B1579DAC2009681E7 /* second@2x.png */; };
+		91844B211579DADB009681E7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91844B201579DADB009681E7 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91844AE51579DA11009681E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91844AA81579DA11009681E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91844AB01579DA11009681E7;
+			remoteInfo = APennySaved;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91844AB11579DA11009681E7 /* APennySaved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APennySaved.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91844AB51579DA11009681E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91844AB71579DA11009681E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91844AB91579DA11009681E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91844ABD1579DA11009681E7 /* APennySaved-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APennySaved-Info.plist"; sourceTree = "<group>"; };
+		91844ABF1579DA11009681E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91844AC11579DA11009681E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91844AC31579DA11009681E7 /* APennySaved-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APennySaved-Prefix.pch"; sourceTree = "<group>"; };
+		91844AC81579DA11009681E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		91844ACB1579DA11009681E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		91844AE01579DA11009681E7 /* APennySavedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APennySavedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91844AE11579DA11009681E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		91844AE91579DA11009681E7 /* APennySavedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APennySavedTests-Info.plist"; sourceTree = "<group>"; };
+		91844AEB1579DA11009681E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91844AED1579DA11009681E7 /* APennySavedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APennySavedTests.h; sourceTree = "<group>"; };
+		91844AEE1579DA11009681E7 /* APennySavedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APennySavedTests.m; sourceTree = "<group>"; };
+		91844AFA1579DAA2009681E7 /* coinDime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinDime.png; sourceTree = "<group>"; };
+		91844AFB1579DAA2009681E7 /* coinNickel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinNickel.png; sourceTree = "<group>"; };
+		91844AFC1579DAA2009681E7 /* coinPenny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinPenny.png; sourceTree = "<group>"; };
+		91844AFD1579DAA2009681E7 /* coinQuarter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinQuarter.png; sourceTree = "<group>"; };
+		91844AFE1579DAA2009681E7 /* BPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		91844AFF1579DAA2009681E7 /* BPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		91844B001579DAA2009681E7 /* BPFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPFirstViewController.h; sourceTree = "<group>"; };
+		91844B011579DAA2009681E7 /* BPFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPFirstViewController.m; sourceTree = "<group>"; };
+		91844B021579DAA2009681E7 /* BPSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPSecondViewController.h; sourceTree = "<group>"; };
+		91844B031579DAA2009681E7 /* BPSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPSecondViewController.m; sourceTree = "<group>"; };
+		91844B051579DAA2009681E7 /* BPCoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCoin.h; sourceTree = "<group>"; };
+		91844B061579DAA2009681E7 /* BPCoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCoin.m; sourceTree = "<group>"; };
+		91844B071579DAA2009681E7 /* BPCoinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCoinManager.h; sourceTree = "<group>"; };
+		91844B081579DAA2009681E7 /* BPCoinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCoinManager.m; sourceTree = "<group>"; };
+		91844B091579DAA2009681E7 /* BPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPLocationManager.h; sourceTree = "<group>"; };
+		91844B0A1579DAA2009681E7 /* BPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPLocationManager.m; sourceTree = "<group>"; };
+		91844B0C1579DAA2009681E7 /* coins.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coins.plist; sourceTree = "<group>"; };
+		91844B181579DAC2009681E7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		91844B191579DAC2009681E7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		91844B1A1579DAC2009681E7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		91844B1B1579DAC2009681E7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		91844B201579DADB009681E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91844AAE1579DA11009681E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844B211579DADB009681E7 /* CoreLocation.framework in Frameworks */,
+				91844AB61579DA11009681E7 /* UIKit.framework in Frameworks */,
+				91844AB81579DA11009681E7 /* Foundation.framework in Frameworks */,
+				91844ABA1579DA11009681E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91844ADC1579DA11009681E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844AE21579DA11009681E7 /* SenTestingKit.framework in Frameworks */,
+				91844AE31579DA11009681E7 /* UIKit.framework in Frameworks */,
+				91844AE41579DA11009681E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91844AA61579DA11009681E7 = {
+			isa = PBXGroup;
+			children = (
+				91844ABB1579DA11009681E7 /* APennySaved */,
+				91844AE71579DA11009681E7 /* APennySavedTests */,
+				91844AB41579DA11009681E7 /* Frameworks */,
+				91844AB21579DA11009681E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91844AB21579DA11009681E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91844AB11579DA11009681E7 /* APennySaved.app */,
+				91844AE01579DA11009681E7 /* APennySavedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91844AB41579DA11009681E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91844B201579DADB009681E7 /* CoreLocation.framework */,
+				91844AB51579DA11009681E7 /* UIKit.framework */,
+				91844AB71579DA11009681E7 /* Foundation.framework */,
+				91844AB91579DA11009681E7 /* CoreGraphics.framework */,
+				91844AE11579DA11009681E7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91844ABB1579DA11009681E7 /* APennySaved */ = {
+			isa = PBXGroup;
+			children = (
+				91844AF81579DAA2009681E7 /* Assets */,
+				91844AFE1579DAA2009681E7 /* BPAppDelegate.h */,
+				91844AFF1579DAA2009681E7 /* BPAppDelegate.m */,
+				91844B001579DAA2009681E7 /* BPFirstViewController.h */,
+				91844B011579DAA2009681E7 /* BPFirstViewController.m */,
+				91844B021579DAA2009681E7 /* BPSecondViewController.h */,
+				91844B031579DAA2009681E7 /* BPSecondViewController.m */,
+				91844B041579DAA2009681E7 /* Classes */,
+				91844B0B1579DAA2009681E7 /* Resources */,
+				91844AC71579DA11009681E7 /* MainStoryboard_iPhone.storyboard */,
+				91844ACA1579DA11009681E7 /* MainStoryboard_iPad.storyboard */,
+				91844ABC1579DA11009681E7 /* Supporting Files */,
+			);
+			path = APennySaved;
+			sourceTree = "<group>";
+		};
+		91844ABC1579DA11009681E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91844ABD1579DA11009681E7 /* APennySaved-Info.plist */,
+				91844ABE1579DA11009681E7 /* InfoPlist.strings */,
+				91844AC11579DA11009681E7 /* main.m */,
+				91844AC31579DA11009681E7 /* APennySaved-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91844AE71579DA11009681E7 /* APennySavedTests */ = {
+			isa = PBXGroup;
+			children = (
+				91844AED1579DA11009681E7 /* APennySavedTests.h */,
+				91844AEE1579DA11009681E7 /* APennySavedTests.m */,
+				91844AE81579DA11009681E7 /* Supporting Files */,
+			);
+			path = APennySavedTests;
+			sourceTree = "<group>";
+		};
+		91844AE81579DA11009681E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91844AE91579DA11009681E7 /* APennySavedTests-Info.plist */,
+				91844AEA1579DA11009681E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91844AF81579DAA2009681E7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				91844AF91579DAA2009681E7 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		91844AF91579DAA2009681E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91844B181579DAC2009681E7 /* first.png */,
+				91844B191579DAC2009681E7 /* first@2x.png */,
+				91844B1A1579DAC2009681E7 /* second.png */,
+				91844B1B1579DAC2009681E7 /* second@2x.png */,
+				91844AFA1579DAA2009681E7 /* coinDime.png */,
+				91844AFB1579DAA2009681E7 /* coinNickel.png */,
+				91844AFC1579DAA2009681E7 /* coinPenny.png */,
+				91844AFD1579DAA2009681E7 /* coinQuarter.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		91844B041579DAA2009681E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91844B051579DAA2009681E7 /* BPCoin.h */,
+				91844B061579DAA2009681E7 /* BPCoin.m */,
+				91844B071579DAA2009681E7 /* BPCoinManager.h */,
+				91844B081579DAA2009681E7 /* BPCoinManager.m */,
+				91844B091579DAA2009681E7 /* BPLocationManager.h */,
+				91844B0A1579DAA2009681E7 /* BPLocationManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		91844B0B1579DAA2009681E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91844B0C1579DAA2009681E7 /* coins.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91844AB01579DA11009681E7 /* APennySaved */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91844AF21579DA11009681E7 /* Build configuration list for PBXNativeTarget "APennySaved" */;
+			buildPhases = (
+				91844AAD1579DA11009681E7 /* Sources */,
+				91844AAE1579DA11009681E7 /* Frameworks */,
+				91844AAF1579DA11009681E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APennySaved;
+			productName = APennySaved;
+			productReference = 91844AB11579DA11009681E7 /* APennySaved.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91844ADF1579DA11009681E7 /* APennySavedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91844AF51579DA11009681E7 /* Build configuration list for PBXNativeTarget "APennySavedTests" */;
+			buildPhases = (
+				91844ADB1579DA11009681E7 /* Sources */,
+				91844ADC1579DA11009681E7 /* Frameworks */,
+				91844ADD1579DA11009681E7 /* Resources */,
+				91844ADE1579DA11009681E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91844AE61579DA11009681E7 /* PBXTargetDependency */,
+			);
+			name = APennySavedTests;
+			productName = APennySavedTests;
+			productReference = 91844AE01579DA11009681E7 /* APennySavedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91844AA81579DA11009681E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Bauerkraut;
+			};
+			buildConfigurationList = 91844AAB1579DA11009681E7 /* Build configuration list for PBXProject "APennySaved" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91844AA61579DA11009681E7;
+			productRefGroup = 91844AB21579DA11009681E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91844AB01579DA11009681E7 /* APennySaved */,
+				91844ADF1579DA11009681E7 /* APennySavedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91844AAF1579DA11009681E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844AC01579DA11009681E7 /* InfoPlist.strings in Resources */,
+				91844AC91579DA11009681E7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				91844ACC1579DA11009681E7 /* MainStoryboard_iPad.storyboard in Resources */,
+				91844B0D1579DAA2009681E7 /* coinDime.png in Resources */,
+				91844B0E1579DAA2009681E7 /* coinNickel.png in Resources */,
+				91844B0F1579DAA2009681E7 /* coinPenny.png in Resources */,
+				91844B101579DAA2009681E7 /* coinQuarter.png in Resources */,
+				91844B171579DAA2009681E7 /* coins.plist in Resources */,
+				91844B1C1579DAC2009681E7 /* first.png in Resources */,
+				91844B1D1579DAC2009681E7 /* first@2x.png in Resources */,
+				91844B1E1579DAC2009681E7 /* second.png in Resources */,
+				91844B1F1579DAC2009681E7 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91844ADD1579DA11009681E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844AEC1579DA11009681E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91844ADE1579DA11009681E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91844AAD1579DA11009681E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844AC21579DA11009681E7 /* main.m in Sources */,
+				91844B111579DAA2009681E7 /* BPAppDelegate.m in Sources */,
+				91844B121579DAA2009681E7 /* BPFirstViewController.m in Sources */,
+				91844B131579DAA2009681E7 /* BPSecondViewController.m in Sources */,
+				91844B141579DAA2009681E7 /* BPCoin.m in Sources */,
+				91844B151579DAA2009681E7 /* BPCoinManager.m in Sources */,
+				91844B161579DAA2009681E7 /* BPLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91844ADB1579DA11009681E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844AEF1579DA11009681E7 /* APennySavedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91844AE61579DA11009681E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91844AB01579DA11009681E7 /* APennySaved */;
+			targetProxy = 91844AE51579DA11009681E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91844ABE1579DA11009681E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91844ABF1579DA11009681E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91844AC71579DA11009681E7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91844AC81579DA11009681E7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91844ACA1579DA11009681E7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91844ACB1579DA11009681E7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91844AEA1579DA11009681E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91844AEB1579DA11009681E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91844AF01579DA11009681E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91844AF11579DA11009681E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91844AF31579DA11009681E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APennySaved/APennySaved-Prefix.pch";
+				INFOPLIST_FILE = "APennySaved/APennySaved-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91844AF41579DA11009681E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APennySaved/APennySaved-Prefix.pch";
+				INFOPLIST_FILE = "APennySaved/APennySaved-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91844AF61579DA11009681E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APennySaved.app/APennySaved";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APennySaved/APennySaved-Prefix.pch";
+				INFOPLIST_FILE = "APennySavedTests/APennySavedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		91844AF71579DA11009681E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APennySaved.app/APennySaved";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APennySaved/APennySaved-Prefix.pch";
+				INFOPLIST_FILE = "APennySavedTests/APennySavedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91844AAB1579DA11009681E7 /* Build configuration list for PBXProject "APennySaved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91844AF01579DA11009681E7 /* Debug */,
+				91844AF11579DA11009681E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91844AF21579DA11009681E7 /* Build configuration list for PBXNativeTarget "APennySaved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91844AF31579DA11009681E7 /* Debug */,
+				91844AF41579DA11009681E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91844AF51579DA11009681E7 /* Build configuration list for PBXNativeTarget "APennySavedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91844AF61579DA11009681E7 /* Debug */,
+				91844AF71579DA11009681E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91844AA81579DA11009681E7 /* Project object */;
+}

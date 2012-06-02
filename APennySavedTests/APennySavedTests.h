@@ -2,8 +2,8 @@
 //  APennySavedTests.h
 //  APennySavedTests
 //
-//  Created by Kristian Bauer on 5/16/12.
-//  Copyright (c) 2012 Bauer Power. All rights reserved.
+//  Created by Kristian Bauer on 6/2/12.
+//  Copyright (c) 2012 Bauerkraut. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>
